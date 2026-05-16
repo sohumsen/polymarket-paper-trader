@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node / Vite
+dashboard/node_modules/
+dashboard/dist/
+
+# Runtime logs
+server.log
+server_out.log
+server_err.log
+
+# Local tooling state
+.claude/
+.claudeignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*

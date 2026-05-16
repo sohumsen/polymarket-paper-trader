@@ -1,0 +1,121 @@
+timestamp,market_id,question,side,category,entry_price,our_estimate,edge,confidence,cost,shares,status,won,profit,exit_reason
+2026-04-11T11:29:24.886486+00:00,567560,Will the next Prime Minister of Hungary be Viktor Orbán?,YES,,0.275,0.35,,,14.22,51.7091,resolved,False,-8.27,stop-loss triggered (unrealized: $-8.27)
+2026-04-11T12:31:36.563071+00:00,568630,Will Rory McIlroy win the 2026 Masters tournament?,NO,,0.295,0.292,,,67.29,228.1017,resolved,False,-67.29,
+2026-04-11T13:13:06.835326+00:00,1767268,Will Torino FC win on 2026-04-11?,NO,,0.535,0.348,0.117,0.55,34.0,63.5514,resolved,False,-34.0,
+2026-04-11T13:13:06.838266+00:00,1771780,Will Real Sociedad de Fútbol win on 2026-04-11?,NO,,0.515,0.381,0.104,0.55,26.86,52.1553,resolved,True,25.3,
+2026-04-11T14:21:02.761806+00:00,1770293,Will Brighton & Hove Albion FC win on 2026-04-11?,NO,,0.405,0.521,0.074,0.55,11.88,29.3333,resolved,False,-11.88,
+2026-04-11T18:27:06.875740+00:00,1877573,Arizona Diamondbacks vs. Philadelphia Phillies,YES,,0.195,0.2515,0.0565,0.55,3.18,16.3077,resolved,False,-3.18,
+2026-04-11T19:39:04.674705+00:00,1771815,Will Sevilla FC win on 2026-04-11?,NO,,0.345,0.6,0.055,0.66,8.05,23.3333,resolved,False,-8.05,
+2026-04-11T20:14:11.544533+00:00,1771820,Will Club Atlético de Madrid win on 2026-04-11?,YES,,0.115,0.18,0.065,0.66,2.33,20.2609,resolved,False,-2.33,
+2026-04-11T20:49:38.523395+00:00,1598508,Wild vs. Predators,NO,,0.495,0.436,0.069,0.68,19.14,38.6667,resolved,True,19.53,
+2026-04-11T20:49:39.050792+00:00,1598493,Capitals vs. Penguins,NO,,0.115,0.766,0.119,0.56,3.52,30.6087,resolved,False,-3.52,
+2026-04-12T13:29:18.723776+00:00,1706766,Iran x Israel/US conflict ends by April 7?,NO,crypto,0.6755,0.0924,0.2471,0.85,90.04,133.2939,resolved,False,-76.84,stop-loss triggered (unrealized: $-76.84)
+2026-04-12T13:29:18.727004+00:00,558934,Will Spain win the 2026 FIFA World Cup?,NO,sports,0.8295,0.0971,0.0884,0.95,81.03,97.6854,open,,,
+2026-04-12T13:29:18.731941+00:00,558936,Will France win the 2026 FIFA World Cup?,NO,sports,0.8425,0.0896,0.0829,0.95,68.97,81.8635,open,,,
+2026-04-12T13:46:54.094272+00:00,1950653,Upper Austria Ladies Linz: Mirra Andreeva vs Anastasia Potapova,YES,sports,0.685,0.7841,0.0991,0.7,36.35,53.0657,resolved,True,16.69,edge eroded (-21.5% vs 9.9% at entry)
+2026-04-12T13:46:54.105843+00:00,958443,Will the Iranian regime fall by June 30?,NO,politics,0.895,0.0282,0.0918,0.95,62.4,69.7207,resolved,True,4.18,edge eroded (1.7% vs 9.2% at entry)
+2026-04-12T13:46:54.109155+00:00,1947793,Rolex Monte Carlo Masters: Carlos Alcaraz vs Jannik Sinner,NO,sports,0.585,0.3526,0.0774,0.95,24.87,42.5128,resolved,True,17.62,edge eroded (-35.2% vs 7.7% at entry)
+2026-04-12T13:52:41.551398+00:00,1950653,Upper Austria Ladies Linz: Mirra Andreeva vs Anastasia Potapova,YES,sports,0.685,0.7841,0.0991,0.7,3.5,5.1095,resolved,True,1.61,edge eroded (-21.5% vs 9.9% at entry)
+2026-04-12T15:58:24.634996+00:00,665374,Will the U.S. invade Iran before 2027?,NO,crypto,0.635,0.0456,0.3344,0.7,63.38,99.811,open,,,
+2026-04-12T15:58:24.941560+00:00,1786347,Will OGC Nice win on 2026-04-12?,NO,sports,0.575,0.3111,0.1289,0.95,41.09,71.4609,resolved,True,30.34,edge eroded (-31.1% vs 12.9% at entry)
+2026-04-13T17:12:49.868479+00:00,1919417,"US x Iran permanent peace deal by April 22, 2026?",NO,crypto,0.885,0.0168,0.1132,0.95,60.68,68.565,resolved,True,7.44,edge eroded (-1.0% vs 11.3% at entry)
+2026-04-17T14:55:19.621542+00:00,2002214,Porsche Tennis Grand Prix: Karolina Muchova vs Coco Gauff,NO,sports,0.555,0.3567,0.1033,0.85,27.59,49.7117,resolved,False,-27.59,
+2026-04-17T14:55:19.626586+00:00,1823776,"Will Bitcoin reach $80,000 in April?",YES,crypto,0.635,0.7649,0.1299,0.95,44.94,70.7717,resolved,False,-22.65,stop-loss triggered (unrealized: $-22.65)
+2026-04-17T14:55:19.634434+00:00,1808970,US obtains Iranian enriched uranium by May 31?,NO,crypto,0.715,0.1527,0.1473,0.85,48.67,68.0699,resolved,True,8.85,edge eroded (0.2% vs 14.7% at entry)
+2026-04-18T10:16:20.080611+00:00,2001405,Dota 2: Team Spirit vs Vici Gaming (BO3) - PGL Wallachia Group Stage,YES,sports,0.625,0.7226,0.0976,0.95,27.08,43.328,resolved,True,16.23,edge eroded (-27.7% vs 9.8% at entry)
+2026-04-18T10:16:20.088294+00:00,1919421,"US x Iran permanent peace deal by April 30, 2026?",NO,crypto,0.545,0.1719,0.2981,0.55,37.02,67.9266,resolved,True,20.38,edge eroded (-1.7% vs 29.8% at entry)
+2026-04-18T10:16:20.097311+00:00,1918792,Trump announces end of military operations against Iran by April 21st?,NO,politics,0.785,0.0871,0.1429,0.85,37.4,47.6433,resolved,True,6.67,edge eroded (-1.2% vs 14.3% at entry)
+2026-04-18T12:23:46.101577+00:00,1947902,Indian Premier League: Royal Challengers Bangalore vs Delhi Capitals,NO,sports,0.615,0.3295,0.0705,0.95,16.52,26.8618,resolved,True,10.33,edge eroded (-32.9% vs 7.0% at entry)
+2026-04-18T12:23:46.109545+00:00,553866,Will the San Antonio Spurs win the 2026 NBA Finals?,NO,sports,0.8515,0.0681,0.0954,0.95,36.34,42.6776,open,,,
+2026-04-18T12:23:46.115514+00:00,2007061,Barcelona Open: Andrey Rublev vs Hamad Medjedovic,YES,sports,0.635,0.7114,0.0764,0.7,11.98,18.8661,resolved,True,6.88,edge eroded (-28.8% vs 7.6% at entry)
+2026-04-18T14:31:33.904566+00:00,1871317,Will 1. FC Union Berlin win on 2026-04-18?,NO,sports,0.845,0.0949,0.0751,0.95,36.08,42.6982,resolved,True,6.6,edge eroded (-9.4% vs 7.5% at entry)
+2026-04-18T14:31:33.909912+00:00,1947784,"Will the price of Bitcoin be above $76,000 on April 18?",YES,crypto,0.728,0.8174,0.0894,0.95,23.09,31.717,resolved,True,8.61,edge eroded (-18.2% vs 8.9% at entry)
+2026-04-18T16:38:37.646437+00:00,1969217,Raptors vs. Cavaliers,NO,sports,0.765,0.1733,0.0767,0.95,29.14,38.0915,resolved,True,2.67,edge eroded (-0.8% vs 7.7% at entry)
+2026-04-18T16:38:37.949146+00:00,2008450,Counter-Strike: Team Falcons vs Spirit (BO3) - IEM Rio Playoffs,NO,sports,0.77,0.1454,0.0996,0.95,30.03,39.0,resolved,True,8.95,edge eroded (-14.5% vs 10.0% at entry)
+2026-04-18T18:44:53.557611+00:00,1871305,Will Le Havre AC win on 2026-04-18?,NO,sports,0.765,0.1402,0.1098,0.85,38.48,50.3007,resolved,True,11.8,edge eroded (-14.0% vs 11.0% at entry)
+2026-04-18T18:44:53.935661+00:00,1540766,Strait of Hormuz traffic returns to normal by end of April?,NO,crypto,0.75,0.1226,0.1424,0.85,20.69,27.5867,resolved,True,4.28,edge eroded (-2.8% vs 14.2% at entry)
+2026-04-18T20:52:10.235067+00:00,703257,Will the US confirm that aliens exist before 2027?,NO,politics,0.805,0.0281,0.1819,0.7,37.87,47.0435,open,,,
+2026-04-19T09:44:18.334074+00:00,2016760,Dota 2: Xtreme Gaming vs Aurora (BO3) - PGL Wallachia Group Stage,NO,sports,0.535,0.3691,0.1109,0.85,19.51,36.4673,resolved,True,16.94,edge eroded (-36.9% vs 11.1% at entry)
+2026-04-19T11:49:25.800605+00:00,1935724,LoL: Bilibili Gaming vs Anyone's Legend (BO3) - LPL Group Ascend,YES,sports,0.715,0.8192,0.1042,0.85,31.22,43.6643,resolved,True,12.42,edge eroded (-18.0% vs 10.4% at entry)
+2026-04-19T11:49:25.818916+00:00,1959740,Indian Premier League: Kolkata Knight Riders vs Rajasthan Royals,YES,sports,0.705,0.7799,0.0749,0.85,6.79,9.6312,resolved,True,1.25,edge eroded (-5.5% vs 7.5% at entry)
+2026-04-19T13:56:31.185259+00:00,1886047,Will Liverpool FC win on 2026-04-19?,YES,sports,0.685,0.7674,0.0824,0.85,23.1,33.7226,resolved,True,10.61,edge eroded (-23.2% vs 8.2% at entry)
+2026-04-19T20:15:55.213008+00:00,1886052,Will Paris Saint-Germain FC win on 2026-04-19?,NO,sports,0.885,0.0578,0.0722,0.95,44.84,50.6667,resolved,True,5.8,edge eroded (-5.7% vs 7.2% at entry)
+2026-04-19T20:15:55.737130+00:00,2012887,Spread: Thunder (-13.5),NO,sports,0.275,0.6705,0.0695,0.55,5.32,19.3455,resolved,False,-5.31,stop-loss triggered (unrealized: $-5.31)
+2026-04-20T00:28:48.190801+00:00,2012787,Magic vs. Pistons,YES,sports,0.605,0.8715,0.2665,0.85,44.89,74.1983,resolved,True,29.27,edge eroded (-12.8% vs 26.7% at entry)
+2026-04-20T00:28:48.491842+00:00,2006733,Canadiens vs. Lightning,YES,sports,0.695,0.8782,0.1832,0.55,33.37,48.0144,resolved,True,14.62,edge eroded (-12.1% vs 18.3% at entry)
+2026-04-20T00:28:48.498972+00:00,1968840,Atlanta Braves vs. Philadelphia Phillies,NO,sports,0.645,0.0906,0.2794,0.55,4.69,7.2713,resolved,False,-3.96,stop-loss triggered (unrealized: $-3.96)
+2026-04-20T02:36:11.597830+00:00,1994503,Spread: Spurs (-10.5),YES,sports,0.665,0.7308,0.0658,0.7,16.8,25.2632,resolved,True,8.45,edge eroded (-26.9% vs 6.6% at entry)
+2026-04-20T04:41:37.173515+00:00,2006739,Utah vs. Golden Knights,YES,sports,0.685,0.9079,0.2229,0.55,48.38,70.6277,resolved,False,-48.38,
+2026-04-20T08:52:56.076646+00:00,1991749,Hawks vs. Knicks,NO,sports,0.695,0.2659,0.0541,0.95,18.91,27.2086,resolved,False,-18.9,stop-loss triggered (unrealized: $-18.90)
+2026-04-20T13:05:02.200661+00:00,561234,Will Marco Rubio win the 2028 US Presidential Election?,NO,sports,0.888,0.0481,0.0789,0.95,43.0,48.4234,open,,,
+2026-04-20T15:10:59.626635+00:00,2002698,"US x Iran diplomatic meeting by April 21, 2026?",NO,crypto,0.73,0.1174,0.1676,0.7,21.04,28.8219,resolved,True,4.18,edge eroded (0.8% vs 16.8% at entry)
+2026-04-21T03:22:27.704394+00:00,2006757,Ducks vs. Oilers,NO,sports,0.875,0.0252,0.1148,0.85,18.91,21.6114,resolved,True,2.69,edge eroded (-2.5% vs 11.5% at entry)
+2026-04-21T05:27:35.617446+00:00,1991751,Timberwolves vs. Nuggets,YES,sports,0.575,0.8419,0.2669,0.85,18.91,32.887,resolved,True,13.98,
+2026-04-21T07:31:57.143462+00:00,1918791,"US x Iran ceasefire extended by April 21, 2026?",NO,crypto,0.78,0.1104,0.1246,0.85,18.91,24.2436,resolved,True,5.33,
+2026-04-21T09:37:23.519523+00:00,2002698,"US x Iran diplomatic meeting by April 21, 2026?",NO,crypto,0.875,0.0376,0.1024,0.95,21.04,24.0457,resolved,True,3.01,
+2026-04-22T11:55:01.925192+00:00,2045485,Dota 2: South America Rejects vs MOUZ - Game 2 Winner,NO,sports,0.34,0.5079,0.1671,0.55,21.73,63.9118,resolved,True,42.15,edge eroded (-50.7% vs 16.7% at entry)
+2026-04-22T11:55:01.935737+00:00,1919421,"US x Iran permanent peace deal by April 30, 2026?",NO,crypto,0.84,0.0335,0.1415,0.85,60.25,71.7262,resolved,True,7.53,edge eroded (2.2% vs 14.1% at entry)
+2026-04-22T11:55:01.946573+00:00,1731344,"Iran agrees to surrender enriched uranium stockpile by April 30, 2026?",NO,crypto,0.866,0.0477,0.1013,0.85,54.22,62.6097,resolved,True,4.73,edge eroded (1.1% vs 10.1% at entry)
+2026-04-22T14:01:00.480311+00:00,2007028,"Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 23, 2026?",NO,crypto,0.855,0.0639,0.0961,0.85,55.19,64.5497,resolved,True,5.81,edge eroded (-0.9% vs 9.6% at entry)
+2026-04-22T14:01:00.495555+00:00,2036399,"US x Iran ceasefire extended by April 22, 2026?",NO,crypto,0.725,0.1705,0.1195,0.7,37.35,51.5172,resolved,True,10.3,edge eroded (-9.6% vs 11.9% at entry)
+2026-04-22T16:07:43.976366+00:00,2045503,Dota 2: Xtreme Gaming vs Team Spirit (BO3) - PGL Wallachia Group Stage,NO,sports,0.615,0.2367,0.1633,0.85,46.9,76.2602,resolved,True,29.32,edge eroded (-23.6% vs 16.3% at entry)
+2026-04-23T17:53:23.524243+00:00,1919425,"US x Iran permanent peace deal by May 31, 2026?",NO,crypto,0.745,0.0268,0.2432,0.85,72.4,97.1812,open,,,
+2026-04-23T17:53:23.537121+00:00,2006280,Knicks vs. Hawks,YES,sports,0.515,0.585,0.07,0.85,19.99,38.8155,resolved,False,-19.99,
+2026-04-23T17:53:23.545143+00:00,2054048,Dota 2: BetBoom Team vs Team Spirit - Game 2 Winner,NO,sports,0.135,0.7791,0.1009,0.55,10.13,75.037,resolved,False,-10.09,stop-loss triggered (unrealized: $-10.09)
+2026-04-23T19:58:01.793990+00:00,1934248,Will Rayo Vallecano de Madrid win on 2026-04-23?,NO,sports,0.81,0.108,0.097,0.95,62.16,76.7407,resolved,False,-62.16,
+2026-04-23T19:58:02.092536+00:00,1934251,Will RCD Espanyol de Barcelona win on 2026-04-23?,NO,sports,0.885,0.0598,0.0702,0.85,52.46,59.2768,resolved,True,6.82,
+2026-04-24T13:26:52.949510+00:00,2002497,"Israel x Hezbollah Ceasefire extended by April 26, 2026?",NO,crypto,0.45,0.3768,0.1882,0.7,33.91,75.3556,resolved,True,10.55,edge eroded (3.3% vs 18.8% at entry)
+2026-04-24T13:26:52.961960+00:00,1959320,"US x Iran diplomatic meeting by April 30, 2026?",NO,crypto,0.605,0.1816,0.2284,0.7,53.23,87.9835,resolved,False,-33.43,stop-loss triggered (unrealized: $-33.43)
+2026-04-24T13:26:52.973602+00:00,2012793,Lakers vs. Rockets,YES,sports,0.275,0.411,0.136,0.55,12.36,44.9455,resolved,True,32.59,
+2026-04-24T15:32:11.751431+00:00,2002497,"Israel x Hezbollah Ceasefire extended by April 26, 2026?",NO,crypto,0.59,0.2549,0.1701,0.7,37.11,62.8983,resolved,True,9.75,edge eroded (0.0% vs 17.0% at entry)
+2026-04-24T15:32:12.141445+00:00,2060009,Dota 2: PARIVISION vs Aurora - Game 2 Winner,NO,sports,0.7,0.2353,0.0797,0.7,22.04,31.4857,resolved,True,9.43,edge eroded (-23.5% vs 8.0% at entry)
+2026-04-24T17:37:27.455352+00:00,1919421,"US x Iran permanent peace deal by April 30, 2026?",NO,crypto,0.885,0.0149,0.1151,0.95,50.33,56.8701,resolved,True,4.55,edge eroded (2.0% vs 11.5% at entry)
+2026-04-24T19:43:45.021438+00:00,2062173,Dota 2: Team Liquid vs BetBoom Team (BO3) - PGL Wallachia Playoffs,NO,sports,0.565,0.3131,0.1369,0.95,33.86,59.9292,resolved,True,26.07,
+2026-04-25T09:56:38.612725+00:00,2047409,"US x Iran diplomatic meeting by April 26, 2026?",NO,crypto,0.705,0.2098,0.1002,0.85,4.3,6.0993,resolved,True,1.19,edge eroded (-11.0% vs 10.0% at entry)
+2026-04-25T10:31:04.995322+00:00,2047410,"US x Iran diplomatic meeting by April 27, 2026?",NO,crypto,0.44,0.1305,0.4445,0.55,42.87,97.4318,resolved,True,33.61,edge eroded (8.4% vs 44.5% at entry)
+2026-04-25T14:45:23.125198+00:00,1959320,"US x Iran diplomatic meeting by April 30, 2026?",NO,crypto,0.545,0.2591,0.2109,0.95,47.17,86.5505,resolved,True,25.1,edge eroded (-9.4% vs 21.1% at entry)
+2026-04-25T16:52:49.423460+00:00,2015225,Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad,NO,sports,0.555,0.3407,0.1193,0.85,39.06,70.3784,resolved,True,31.28,edge eroded (-34.0% vs 11.9% at entry)
+2026-04-25T16:52:49.480090+00:00,1959320,"US x Iran diplomatic meeting by April 30, 2026?",NO,crypto,0.82,0.0641,0.1309,0.95,64.66,78.8537,resolved,True,7.49,edge eroded (2.1% vs 13.1% at entry)
+2026-04-25T16:52:49.515319+00:00,2077210,Dota 2: Team Liquid vs Team Falcons - Game 1 Winner,NO,sports,0.72,0.2146,0.0804,0.85,30.89,42.9028,resolved,True,11.99,edge eroded (-21.4% vs 8.0% at entry)
+2026-04-25T18:58:44.597222+00:00,2077208,Dota 2: Team Liquid vs Team Falcons (BO3) - PGL Wallachia Playoffs,YES,sports,0.515,0.6684,0.1534,0.95,49.9,96.8932,resolved,False,-49.85,stop-loss triggered (unrealized: $-49.85)
+2026-04-25T18:58:44.895275+00:00,1954638,Will Club Atlético de Madrid win on 2026-04-25?,YES,sports,0.495,0.5817,0.0867,0.85,20.05,40.5051,resolved,True,16.61,edge eroded (-32.3% vs 8.7% at entry)
+2026-04-25T21:03:50.152602+00:00,2022769,Seattle Mariners vs. St. Louis Cardinals,YES,sports,0.435,0.5272,0.0922,0.7,18.02,41.4253,resolved,True,23.38,edge eroded (-47.2% vs 9.2% at entry)
+2026-04-25T21:03:50.456748+00:00,2006847,Hurricanes vs. Senators,NO,sports,0.495,0.4589,0.0611,0.85,15.76,31.8384,resolved,False,-15.76,
+2026-04-25T23:09:37.463286+00:00,2006852,Stars vs. Wild,NO,sports,0.505,0.3546,0.1554,0.95,47.62,94.297,resolved,True,46.63,edge eroded (-35.4% vs 15.5% at entry)
+2026-04-25T23:09:37.986663+00:00,2022787,Athletics vs. Texas Rangers,NO,sports,0.525,0.4316,0.0584,0.85,15.44,29.4095,resolved,True,4.41,edge eroded (-10.7% vs 5.8% at entry)
+2026-04-26T01:14:23.594176+00:00,2022797,Philadelphia Phillies vs. Atlanta Braves,YES,sports,0.54,0.7041,0.1641,0.85,52.28,96.8148,resolved,True,32.92,edge eroded (-17.6% vs 16.4% at entry)
+2026-04-26T01:14:23.622107+00:00,2006857,Penguins vs. Flyers,YES,sports,0.635,0.9135,0.2785,0.7,17.67,27.8268,resolved,True,10.14,edge eroded (-8.6% vs 27.9% at entry)
+2026-04-26T03:16:38.584336+00:00,2002497,"Israel x Hezbollah Ceasefire extended by April 26, 2026?",NO,crypto,0.795,0.1096,0.1104,0.85,69.95,87.9874,resolved,False,-69.73,stop-loss triggered (unrealized: $-69.73)
+2026-04-26T22:38:28.961315+00:00,2033094,Los Angeles Angels vs. Kansas City Royals,NO,sports,0.2825,0.5609,0.1716,0.55,24.17,85.5575,resolved,False,-16.9,stop-loss triggered (unrealized: $-16.90)
+2026-04-26T22:38:29.278513+00:00,2073290,Spread: Celtics (-7.5),NO,sports,0.525,0.4035,0.0865,0.95,30.74,58.5524,resolved,False,-22.25,stop-loss triggered (unrealized: $-22.25)
+2026-04-26T22:38:29.310084+00:00,2006867,Avalanche vs. Kings,NO,sports,0.2,0.7584,0.0566,0.7,8.42,42.1,resolved,False,-8.4,stop-loss triggered (unrealized: $-8.40)
+2026-04-27T00:43:52.144112+00:00,2006872,Lightning vs. Canadiens,NO,sports,0.665,0.054,0.296,0.55,64.66,97.2331,resolved,False,-64.66,
+2026-04-27T02:49:52.333087+00:00,2088764,Lakers vs. Rockets: O/U 205.5,NO,sports,0.745,0.1143,0.1557,0.7,62.27,83.5839,resolved,False,-62.23,stop-loss triggered (unrealized: $-62.23)
+2026-04-27T02:49:52.373705+00:00,2006877,Oilers vs. Ducks,YES,sports,0.815,0.9506,0.1356,0.85,2.39,2.9325,resolved,False,-2.38,stop-loss triggered (unrealized: $-2.38)
+2026-04-27T04:54:42.317786+00:00,2006877,Oilers vs. Ducks,YES,sports,0.525,0.6396,0.1146,0.85,28.61,54.4952,resolved,False,-28.61,
+2026-04-27T04:54:42.843609+00:00,1976957,Will Manchester United FC win on 2026-04-27?,NO,sports,0.495,0.4224,0.0976,0.7,17.91,36.1818,resolved,False,-17.91,
+2026-04-27T09:05:59.403690+00:00,951182,Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West Bengal Legislative Assembly election?,YES,politics,0.587,0.6911,0.1041,0.85,27.4,46.678,resolved,False,-24.9,stop-loss triggered (unrealized: $-24.90)
+2026-04-27T11:10:16.627860+00:00,2080198,Madrid Open: Belinda Bencic vs Hailey Baptiste,YES,sports,0.455,0.7459,0.2909,0.7,19.35,42.5275,resolved,False,-19.33,stop-loss triggered (unrealized: $-19.33)
+2026-04-27T13:14:36.834716+00:00,2080207,Madrid Open: Aryna Sabalenka vs Naomi Osaka,YES,sports,0.785,0.8867,0.1017,0.85,19.35,24.6497,resolved,True,5.29,edge eroded (-11.3% vs 10.2% at entry)
+2026-04-27T15:19:24.704907+00:00,2078284,Madrid Open: Mirra Andreeva vs Anna Bondar,YES,sports,0.595,0.7491,0.1541,0.85,19.35,32.521,resolved,True,13.15,edge eroded (-25.0% vs 15.4% at entry)
+2026-04-27T17:24:58.853170+00:00,1974986,Will Atalanta BC win on 2026-04-27?,NO,sports,0.755,0.1558,0.1042,0.85,19.35,25.6291,resolved,True,6.27,edge eroded (-15.5% vs 10.4% at entry)
+2026-04-27T19:30:54.119622+00:00,1823776,"Will Bitcoin reach $80,000 in April?",NO,crypto,0.75,0.0839,0.1811,0.85,48.98,65.3067,resolved,True,16.33,
+2026-04-27T19:30:54.425005+00:00,2082881,Spread: Nuggets (-11.5),NO,sports,0.505,0.4244,0.0856,0.85,16.2,32.0792,resolved,False,-16.2,
+2026-05-03T13:22:43.234777+00:00,2027390,Will AC Milan win on 2026-05-03?,NO,sports,0.645,0.2429,0.1271,0.95,41.66,64.5891,resolved,True,22.9,edge eroded (-24.2% vs 12.7% at entry)
+2026-05-04T11:40:46.963981+00:00,1962237,"US x Iran permanent peace deal by June 30, 2026?",NO,crypto,0.645,0.0422,0.3278,0.7,51.53,79.8915,open,,,
+2026-05-04T11:40:46.984592+00:00,2133404,Iran closes its airspace by May 8?,NO,crypto,0.795,0.1053,0.1147,0.95,26.07,32.7925,resolved,True,6.72,
+2026-05-04T11:40:46.994102+00:00,561229,Will JD Vance win the 2028 US Presidential Election?,NO,sports,0.7895,0.1478,0.0777,0.95,38.37,48.6004,open,,,
+2026-05-04T13:46:00.127487+00:00,2144490,76ers vs. Knicks,NO,sports,0.705,0.2645,0.0455,0.95,14.63,20.7518,resolved,True,6.12,
+2026-05-04T13:46:00.146435+00:00,2040064,Will Manchester City FC win on 2026-05-04?,NO,sports,0.345,0.6137,0.0563,0.7,4.01,11.6232,resolved,True,7.61,
+2026-05-05T10:46:27.649808+00:00,2152537,Cavaliers vs. Pistons,YES,sports,0.415,0.5148,0.0998,0.55,9.69,23.3494,resolved,False,-9.69,
+2026-05-05T10:46:27.962810+00:00,2138976,LoL: Dplus KIA vs Nongshim Red Force (BO3) - Esports World Cup Korea Qualifier Playoffs,YES,sports,0.885,0.9494,0.0644,0.7,8.95,10.113,resolved,True,1.16,edge eroded (-5.0% vs 6.4% at entry)
+2026-05-05T12:55:38.477724+00:00,2155859,Internazionali BNL d'Italia: Anna Bondar vs Qinwen Zheng,YES,sports,0.71,0.7662,0.0562,0.85,8.95,12.6056,resolved,False,-8.94,stop-loss triggered (unrealized: $-8.94)
+2026-05-05T15:03:48.843540+00:00,2073829,"Will Elon Musk post 160-179 tweets from April 28 to May 5, 2026?",NO,crypto,0.6045,0.2593,0.1512,0.85,8.95,14.8056,resolved,True,5.85,edge eroded (-25.9% vs 15.1% at entry)
+2026-05-05T17:11:26.171070+00:00,2160103,"Internazionali BNL d'Italia, Qualification: Mayar Sherif vs Tamara Korpatsch",NO,sports,0.485,0.3624,0.1676,0.7,8.95,18.4536,resolved,True,9.49,edge eroded (-36.2% vs 16.8% at entry)
+2026-05-05T19:20:40.134430+00:00,2054191,Spread: Arsenal FC (-1.5),NO,sports,0.655,0.2486,0.1114,0.85,8.95,13.6641,resolved,True,4.71,
+2026-05-09T14:09:49.226975+00:00,2184805,Internazionali BNL d'Italia: Felix Auger-Aliassime vs Mariano Navone,NO,sports,0.465,0.3485,0.2015,0.85,41.22,88.6452,resolved,True,47.38,edge eroded (-34.8% vs 20.2% at entry)
+2026-05-09T14:09:49.310948+00:00,2082126,Will FC Augsburg win on 2026-05-09?,NO,sports,0.555,0.3387,0.1213,0.95,30.67,55.2613,resolved,False,-30.64,stop-loss triggered (unrealized: $-30.64)
+2026-05-09T14:09:49.340048+00:00,2080734,Will Udinese Calcio win on 2026-05-09?,NO,sports,0.775,0.143,0.097,0.95,35.22,45.4452,resolved,False,-35.2,stop-loss triggered (unrealized: $-35.20)
+2026-05-09T16:20:29.227174+00:00,2184796,Internazionali BNL d'Italia: Aryna Sabalenka vs Sorana Cirstea,NO,sports,0.8385,0.0693,0.1072,0.85,49.66,59.2248,resolved,True,9.54,edge eroded (-6.9% vs 10.7% at entry)
+2026-05-09T16:20:29.553300+00:00,2099029,"US x Iran permanent peace deal by May 15, 2026?",NO,crypto,0.8755,0.0208,0.1187,0.95,44.69,51.0451,open,,,
+2026-05-09T16:20:29.587949+00:00,2149038,Indian Premier League: Rajasthan Royals vs Gujarat Titans,NO,sports,0.605,0.3564,0.0536,0.85,11.6,19.1736,resolved,True,7.56,edge eroded (-35.6% vs 5.4% at entry)

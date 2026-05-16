@@ -1,0 +1,1563 @@
+{
+  "predictions": [
+    {
+      "market_id": "1706766",
+      "question": "Iran x Israel/US conflict ends by April 7?",
+      "our_estimate": 0.6706,
+      "market_price": 0.551,
+      "side": "YES",
+      "timestamp": "2026-04-12T09:59:49.058712+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "our_estimate": 0.019,
+      "market_price": 0.095,
+      "side": "NO",
+      "timestamp": "2026-04-12T10:11:45.899736+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "our_estimate": 0.0504,
+      "market_price": 0.355,
+      "side": "NO",
+      "timestamp": "2026-04-12T10:16:16.723622+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "our_estimate": 0.0855,
+      "market_price": 0.1785,
+      "side": "NO",
+      "timestamp": "2026-04-12T10:19:52.260004+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "558936",
+      "question": "Will France win the 2026 FIFA World Cup?",
+      "our_estimate": 0.0896,
+      "market_price": 0.1575,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:19:13.334190+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1706766",
+      "question": "Iran x Israel/US conflict ends by April 7?",
+      "our_estimate": 0.0924,
+      "market_price": 0.3245,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:20:59.920772+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "558934",
+      "question": "Will Spain win the 2026 FIFA World Cup?",
+      "our_estimate": 0.0971,
+      "market_price": 0.1705,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:22:00.263252+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "our_estimate": 0.0231,
+      "market_price": 0.095,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:24:00.832197+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1786372",
+      "question": "Will Aston Villa FC win on 2026-04-12?",
+      "our_estimate": 0.2374,
+      "market_price": 0.275,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:25:27.590881+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "our_estimate": 0.0472,
+      "market_price": 0.1125,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:27:27.049538+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1786388",
+      "question": "Will Manchester City FC win on 2026-04-12?",
+      "our_estimate": 0.5589,
+      "market_price": 0.495,
+      "side": "YES",
+      "timestamp": "2026-04-12T13:29:18.706654+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1947793",
+      "question": "Rolex Monte Carlo Masters: Carlos Alcaraz vs Jannik Sinner",
+      "our_estimate": 0.3526,
+      "market_price": 0.415,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:36:40.244738+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1786365",
+      "question": "Will Nottingham Forest FC win on 2026-04-12?",
+      "our_estimate": 0.1061,
+      "market_price": 0.16,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:38:24.693595+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1786372",
+      "question": "Will Aston Villa FC win on 2026-04-12?",
+      "our_estimate": 0.6641,
+      "market_price": 0.595,
+      "side": "YES",
+      "timestamp": "2026-04-12T13:39:16.013235+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "our_estimate": 0.0487,
+      "market_price": 0.1125,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:42:53.220008+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "958443",
+      "question": "Will the Iranian regime fall by June 30?",
+      "our_estimate": 0.0282,
+      "market_price": 0.105,
+      "side": "NO",
+      "timestamp": "2026-04-12T13:43:53.472581+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1786388",
+      "question": "Will Manchester City FC win on 2026-04-12?",
+      "our_estimate": 0.5558,
+      "market_price": 0.495,
+      "side": "YES",
+      "timestamp": "2026-04-12T13:45:53.885220+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1950653",
+      "question": "Upper Austria Ladies Linz: Mirra Andreeva vs Anastasia Potapova",
+      "our_estimate": 0.7841,
+      "market_price": 0.685,
+      "side": "YES",
+      "timestamp": "2026-04-12T13:46:54.089515+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1786347",
+      "question": "Will OGC Nice win on 2026-04-12?",
+      "our_estimate": 0.3111,
+      "market_price": 0.425,
+      "side": "NO",
+      "timestamp": "2026-04-12T15:50:24.004668+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1919477",
+      "question": "Indian Premier League: Mumbai Indians vs Royal Challengers Bangalore",
+      "our_estimate": 0.2469,
+      "market_price": 0.285,
+      "side": "NO",
+      "timestamp": "2026-04-12T15:55:23.026418+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "558935",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "our_estimate": 0.0433,
+      "market_price": 0.1115,
+      "side": "NO",
+      "timestamp": "2026-04-12T15:56:23.566562+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "our_estimate": 0.0456,
+      "market_price": 0.365,
+      "side": "NO",
+      "timestamp": "2026-04-12T15:57:24.101474+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1919417",
+      "question": "US x Iran permanent peace deal by April 22, 2026?",
+      "our_estimate": 0.0168,
+      "market_price": 0.115,
+      "side": "NO",
+      "timestamp": "2026-04-13T17:12:49.860453+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1808970",
+      "question": "US obtains Iranian enriched uranium by May 31?",
+      "our_estimate": 0.1527,
+      "market_price": 0.285,
+      "side": "NO",
+      "timestamp": "2026-04-17T14:46:55.153220+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "our_estimate": 0.0728,
+      "market_price": 0.152,
+      "side": "NO",
+      "timestamp": "2026-04-17T14:49:14.194074+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2002214",
+      "question": "Porsche Tennis Grand Prix: Karolina Muchova vs Coco Gauff",
+      "our_estimate": 0.3567,
+      "market_price": 0.445,
+      "side": "NO",
+      "timestamp": "2026-04-17T14:50:09.406484+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "561234",
+      "question": "Will Marco Rubio win the 2028 US Presidential Election?",
+      "our_estimate": 0.0466,
+      "market_price": 0.1035,
+      "side": "NO",
+      "timestamp": "2026-04-17T14:50:46.509330+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1850951",
+      "question": "Will Como 1907 win on 2026-04-17?",
+      "our_estimate": 0.5527,
+      "market_price": 0.625,
+      "side": "NO",
+      "timestamp": "2026-04-17T14:54:22.590776+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1823776",
+      "question": "Will Bitcoin reach $80,000 in April?",
+      "our_estimate": 0.7649,
+      "market_price": 0.635,
+      "side": "YES",
+      "timestamp": "2026-04-17T14:55:19.027523+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1540766",
+      "question": "Strait of Hormuz traffic returns to normal by end of April?",
+      "our_estimate": 0.1614,
+      "market_price": 0.285,
+      "side": "NO",
+      "timestamp": "2026-04-18T10:10:52.734145+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1919421",
+      "question": "US x Iran permanent peace deal by April 30, 2026?",
+      "our_estimate": 0.1719,
+      "market_price": 0.455,
+      "side": "NO",
+      "timestamp": "2026-04-18T10:11:29.537471+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2001405",
+      "question": "Dota 2: Team Spirit vs Vici Gaming (BO3) - PGL Wallachia Group Stage",
+      "our_estimate": 0.7226,
+      "market_price": 0.625,
+      "side": "YES",
+      "timestamp": "2026-04-18T10:14:21.472160+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "our_estimate": 0.0647,
+      "market_price": 0.148,
+      "side": "NO",
+      "timestamp": "2026-04-18T10:15:01.835799+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1918792",
+      "question": "Trump announces end of military operations against Iran by April 21st?",
+      "our_estimate": 0.0871,
+      "market_price": 0.215,
+      "side": "NO",
+      "timestamp": "2026-04-18T10:16:19.704501+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1947902",
+      "question": "Indian Premier League: Royal Challengers Bangalore vs Delhi Capitals",
+      "our_estimate": 0.3295,
+      "market_price": 0.385,
+      "side": "NO",
+      "timestamp": "2026-04-18T12:20:12.680629+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2007061",
+      "question": "Barcelona Open: Andrey Rublev vs Hamad Medjedovic",
+      "our_estimate": 0.7114,
+      "market_price": 0.635,
+      "side": "YES",
+      "timestamp": "2026-04-18T12:22:20.584841+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "553866",
+      "question": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "our_estimate": 0.0681,
+      "market_price": 0.1485,
+      "side": "NO",
+      "timestamp": "2026-04-18T12:23:45.712988+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1540766",
+      "question": "Strait of Hormuz traffic returns to normal by end of April?",
+      "our_estimate": 0.2047,
+      "market_price": 0.295,
+      "side": "NO",
+      "timestamp": "2026-04-18T14:25:25.773354+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1871317",
+      "question": "Will 1. FC Union Berlin win on 2026-04-18?",
+      "our_estimate": 0.0949,
+      "market_price": 0.155,
+      "side": "NO",
+      "timestamp": "2026-04-18T14:27:02.010191+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1871271",
+      "question": "Will Bayer 04 Leverkusen win on 2026-04-18?",
+      "our_estimate": 0.5764,
+      "market_price": 0.625,
+      "side": "NO",
+      "timestamp": "2026-04-18T14:30:32.893775+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1947784",
+      "question": "Will the price of Bitcoin be above $76,000 on April 18?",
+      "our_estimate": 0.8174,
+      "market_price": 0.728,
+      "side": "YES",
+      "timestamp": "2026-04-18T14:31:33.603982+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1540766",
+      "question": "Strait of Hormuz traffic returns to normal by end of April?",
+      "our_estimate": 0.1277,
+      "market_price": 0.255,
+      "side": "NO",
+      "timestamp": "2026-04-18T16:33:17.050430+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2008450",
+      "question": "Counter-Strike: Team Falcons vs Spirit (BO3) - IEM Rio Playoffs",
+      "our_estimate": 0.1454,
+      "market_price": 0.23,
+      "side": "NO",
+      "timestamp": "2026-04-18T16:33:50.560691+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1871350",
+      "question": "Will RB Leipzig win on 2026-04-18?",
+      "our_estimate": 0.3577,
+      "market_price": 0.425,
+      "side": "NO",
+      "timestamp": "2026-04-18T16:34:32.580370+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1969217",
+      "question": "Raptors vs. Cavaliers",
+      "our_estimate": 0.1733,
+      "market_price": 0.235,
+      "side": "NO",
+      "timestamp": "2026-04-18T16:37:56.186788+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1540766",
+      "question": "Strait of Hormuz traffic returns to normal by end of April?",
+      "our_estimate": 0.1226,
+      "market_price": 0.25,
+      "side": "NO",
+      "timestamp": "2026-04-18T18:40:14.268986+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1969217",
+      "question": "Raptors vs. Cavaliers",
+      "our_estimate": 0.0999,
+      "market_price": 0.165,
+      "side": "NO",
+      "timestamp": "2026-04-18T18:40:52.245750+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1871305",
+      "question": "Will Le Havre AC win on 2026-04-18?",
+      "our_estimate": 0.1402,
+      "market_price": 0.235,
+      "side": "NO",
+      "timestamp": "2026-04-18T18:43:15.433136+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "703257",
+      "question": "Will the US confirm that aliens exist before 2027?",
+      "our_estimate": 0.0281,
+      "market_price": 0.195,
+      "side": "NO",
+      "timestamp": "2026-04-18T20:49:23.572150+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006715",
+      "question": "Senators vs. Hurricanes",
+      "our_estimate": 0.1524,
+      "market_price": 0.205,
+      "side": "NO",
+      "timestamp": "2026-04-18T20:50:25.128926+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1871356",
+      "question": "Will Manchester United FC win on 2026-04-18?",
+      "our_estimate": 0.8082,
+      "market_price": 0.75,
+      "side": "YES",
+      "timestamp": "2026-04-18T20:52:09.839235+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2016760",
+      "question": "Dota 2: Xtreme Gaming vs Aurora (BO3) - PGL Wallachia Group Stage",
+      "our_estimate": 0.3691,
+      "market_price": 0.465,
+      "side": "NO",
+      "timestamp": "2026-04-19T09:40:33.218215+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1959740",
+      "question": "Indian Premier League: Kolkata Knight Riders vs Rajasthan Royals",
+      "our_estimate": 0.7799,
+      "market_price": 0.705,
+      "side": "YES",
+      "timestamp": "2026-04-19T11:47:23.442075+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1935724",
+      "question": "LoL: Bilibili Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+      "our_estimate": 0.8192,
+      "market_price": 0.715,
+      "side": "YES",
+      "timestamp": "2026-04-19T11:49:25.277074+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1886047",
+      "question": "Will Liverpool FC win on 2026-04-19?",
+      "our_estimate": 0.7674,
+      "market_price": 0.685,
+      "side": "YES",
+      "timestamp": "2026-04-19T13:51:21.400533+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2012887",
+      "question": "Spread: Thunder (-13.5)",
+      "our_estimate": 0.6705,
+      "market_price": 0.725,
+      "side": "NO",
+      "timestamp": "2026-04-19T20:11:57.526622+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1886052",
+      "question": "Will Paris Saint-Germain FC win on 2026-04-19?",
+      "our_estimate": 0.0578,
+      "market_price": 0.115,
+      "side": "NO",
+      "timestamp": "2026-04-19T20:13:51.946155+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2012787",
+      "question": "Magic vs. Pistons",
+      "our_estimate": 0.8715,
+      "market_price": 0.605,
+      "side": "YES",
+      "timestamp": "2026-04-20T00:22:42.491386+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2012788",
+      "question": "Spread: Pistons (-8.5)",
+      "our_estimate": 0.2454,
+      "market_price": 0.3,
+      "side": "NO",
+      "timestamp": "2026-04-20T00:23:17.253020+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006733",
+      "question": "Canadiens vs. Lightning",
+      "our_estimate": 0.8782,
+      "market_price": 0.695,
+      "side": "YES",
+      "timestamp": "2026-04-20T00:26:20.224117+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1968840",
+      "question": "Atlanta Braves vs. Philadelphia Phillies",
+      "our_estimate": 0.0906,
+      "market_price": 0.355,
+      "side": "NO",
+      "timestamp": "2026-04-20T00:28:09.820084+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1994503",
+      "question": "Spread: Spurs (-10.5)",
+      "our_estimate": 0.7308,
+      "market_price": 0.665,
+      "side": "YES",
+      "timestamp": "2026-04-20T02:34:50.725653+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006739",
+      "question": "Utah vs. Golden Knights",
+      "our_estimate": 0.9079,
+      "market_price": 0.685,
+      "side": "YES",
+      "timestamp": "2026-04-20T04:39:11.631367+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1991749",
+      "question": "Hawks vs. Knicks",
+      "our_estimate": 0.2659,
+      "market_price": 0.305,
+      "side": "NO",
+      "timestamp": "2026-04-20T08:50:16.973539+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "561234",
+      "question": "Will Marco Rubio win the 2028 US Presidential Election?",
+      "our_estimate": 0.0481,
+      "market_price": 0.112,
+      "side": "NO",
+      "timestamp": "2026-04-20T13:03:17.329279+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2002698",
+      "question": "US x Iran diplomatic meeting by April 21, 2026?",
+      "our_estimate": 0.1174,
+      "market_price": 0.27,
+      "side": "NO",
+      "timestamp": "2026-04-20T15:09:05.938428+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1897675",
+      "question": "Will ACF Fiorentina win on 2026-04-20?",
+      "our_estimate": 0.4062,
+      "market_price": 0.445,
+      "side": "NO",
+      "timestamp": "2026-04-20T15:10:17.809304+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1991751",
+      "question": "Timberwolves vs. Nuggets",
+      "our_estimate": 0.0339,
+      "market_price": 0.105,
+      "side": "NO",
+      "timestamp": "2026-04-21T03:17:48.715237+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "2006757",
+      "question": "Ducks vs. Oilers",
+      "our_estimate": 0.0252,
+      "market_price": 0.125,
+      "side": "NO",
+      "timestamp": "2026-04-21T03:19:15.570013+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1980469",
+      "question": "Toronto Blue Jays vs. Los Angeles Angels",
+      "our_estimate": 0.5873,
+      "market_price": 0.485,
+      "side": "YES",
+      "timestamp": "2026-04-21T03:20:03.562302+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2034146",
+      "question": "Spread: Nuggets (-7.5)",
+      "our_estimate": 0.8249,
+      "market_price": 0.71,
+      "side": "YES",
+      "timestamp": "2026-04-21T03:21:47.642969+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1918791",
+      "question": "US x Iran ceasefire extended by April 21, 2026?",
+      "our_estimate": 0.1156,
+      "market_price": 0.245,
+      "side": "NO",
+      "timestamp": "2026-04-21T03:22:27.393920+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1991751",
+      "question": "Timberwolves vs. Nuggets",
+      "our_estimate": 0.8419,
+      "market_price": 0.575,
+      "side": "YES",
+      "timestamp": "2026-04-21T05:24:14.063149+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "1918791",
+      "question": "US x Iran ceasefire extended by April 21, 2026?",
+      "our_estimate": 0.1701,
+      "market_price": 0.28,
+      "side": "NO",
+      "timestamp": "2026-04-21T05:27:35.090230+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1918791",
+      "question": "US x Iran ceasefire extended by April 21, 2026?",
+      "our_estimate": 0.1104,
+      "market_price": 0.22,
+      "side": "NO",
+      "timestamp": "2026-04-21T07:31:14.599307+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2002698",
+      "question": "US x Iran diplomatic meeting by April 21, 2026?",
+      "our_estimate": 0.0376,
+      "market_price": 0.125,
+      "side": "NO",
+      "timestamp": "2026-04-21T09:35:02.530001+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1919421",
+      "question": "US x Iran permanent peace deal by April 30, 2026?",
+      "our_estimate": 0.0335,
+      "market_price": 0.16,
+      "side": "NO",
+      "timestamp": "2026-04-22T11:50:59.801040+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2045485",
+      "question": "Dota 2: South America Rejects vs MOUZ - Game 2 Winner",
+      "our_estimate": 0.5079,
+      "market_price": 0.66,
+      "side": "NO",
+      "timestamp": "2026-04-22T11:53:43.372899+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1731344",
+      "question": "Iran agrees to surrender enriched uranium stockpile by April 30, 2026?",
+      "our_estimate": 0.0477,
+      "market_price": 0.134,
+      "side": "NO",
+      "timestamp": "2026-04-22T11:55:01.630841+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2036399",
+      "question": "US x Iran ceasefire extended by April 22, 2026?",
+      "our_estimate": 0.1705,
+      "market_price": 0.275,
+      "side": "NO",
+      "timestamp": "2026-04-22T13:57:28.918423+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2007028",
+      "question": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted b",
+      "our_estimate": 0.0639,
+      "market_price": 0.145,
+      "side": "NO",
+      "timestamp": "2026-04-22T14:00:59.948211+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2045503",
+      "question": "Dota 2: Xtreme Gaming vs Team Spirit (BO3) - PGL Wallachia Group Stage",
+      "our_estimate": 0.2367,
+      "market_price": 0.385,
+      "side": "NO",
+      "timestamp": "2026-04-22T16:05:51.165115+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1919425",
+      "question": "US x Iran permanent peace deal by May 31, 2026?",
+      "our_estimate": 0.0268,
+      "market_price": 0.255,
+      "side": "NO",
+      "timestamp": "2026-04-23T17:50:08.251663+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006280",
+      "question": "Knicks vs. Hawks",
+      "our_estimate": 0.585,
+      "market_price": 0.515,
+      "side": "YES",
+      "timestamp": "2026-04-23T17:51:35.644661+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2054048",
+      "question": "Dota 2: BetBoom Team vs Team Spirit - Game 2 Winner",
+      "our_estimate": 0.7791,
+      "market_price": 0.865,
+      "side": "NO",
+      "timestamp": "2026-04-23T17:53:23.518408+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1934251",
+      "question": "Will RCD Espanyol de Barcelona win on 2026-04-23?",
+      "our_estimate": 0.0598,
+      "market_price": 0.115,
+      "side": "NO",
+      "timestamp": "2026-04-23T19:55:44.498747+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1934248",
+      "question": "Will Rayo Vallecano de Madrid win on 2026-04-23?",
+      "our_estimate": 0.108,
+      "market_price": 0.19,
+      "side": "NO",
+      "timestamp": "2026-04-23T19:56:27.920787+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "2002497",
+      "question": "Israel x Hezbollah Ceasefire extended by April 26, 2026?",
+      "our_estimate": 0.3768,
+      "market_price": 0.55,
+      "side": "NO",
+      "timestamp": "2026-04-24T13:23:56.088168+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2012793",
+      "question": "Lakers vs. Rockets",
+      "our_estimate": 0.411,
+      "market_price": 0.275,
+      "side": "YES",
+      "timestamp": "2026-04-24T13:24:22.980229+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "1959320",
+      "question": "US x Iran diplomatic meeting by April 30, 2026?",
+      "our_estimate": 0.1816,
+      "market_price": 0.395,
+      "side": "NO",
+      "timestamp": "2026-04-24T13:26:52.938238+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2002497",
+      "question": "Israel x Hezbollah Ceasefire extended by April 26, 2026?",
+      "our_estimate": 0.2549,
+      "market_price": 0.41,
+      "side": "NO",
+      "timestamp": "2026-04-24T15:29:19.310466+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2060009",
+      "question": "Dota 2: PARIVISION vs Aurora - Game 2 Winner",
+      "our_estimate": 0.2353,
+      "market_price": 0.3,
+      "side": "NO",
+      "timestamp": "2026-04-24T15:30:40.659953+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1919421",
+      "question": "US x Iran permanent peace deal by April 30, 2026?",
+      "our_estimate": 0.0149,
+      "market_price": 0.115,
+      "side": "NO",
+      "timestamp": "2026-04-24T17:33:43.147464+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1944368",
+      "question": "Will Real Madrid CF win on 2026-04-24?",
+      "our_estimate": 0.8171,
+      "market_price": 0.735,
+      "side": "YES",
+      "timestamp": "2026-04-24T19:40:20.696330+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2062173",
+      "question": "Dota 2: Team Liquid vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
+      "our_estimate": 0.3131,
+      "market_price": 0.435,
+      "side": "NO",
+      "timestamp": "2026-04-24T19:42:12.473467+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2047409",
+      "question": "US x Iran diplomatic meeting by April 26, 2026?",
+      "our_estimate": 0.2098,
+      "market_price": 0.295,
+      "side": "NO",
+      "timestamp": "2026-04-24T19:43:44.322649+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1959320",
+      "question": "US x Iran diplomatic meeting by April 30, 2026?",
+      "our_estimate": 0.227,
+      "market_price": 0.68,
+      "side": "NO",
+      "timestamp": "2026-04-25T10:26:58.563249+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2047410",
+      "question": "US x Iran diplomatic meeting by April 27, 2026?",
+      "our_estimate": 0.1305,
+      "market_price": 0.56,
+      "side": "NO",
+      "timestamp": "2026-04-25T10:27:35.213369+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1954630",
+      "question": "Will FC Barcelona win on 2026-04-25?",
+      "our_estimate": 0.4786,
+      "market_price": 0.545,
+      "side": "NO",
+      "timestamp": "2026-04-25T14:35:50.333669+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2071464",
+      "question": "Dota 2: Aurora vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
+      "our_estimate": 0.3019,
+      "market_price": 0.365,
+      "side": "NO",
+      "timestamp": "2026-04-25T14:37:41.575094+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1953308",
+      "question": "Will Liverpool FC win on 2026-04-25?",
+      "our_estimate": 0.4684,
+      "market_price": 0.545,
+      "side": "NO",
+      "timestamp": "2026-04-25T14:38:44.514629+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1959320",
+      "question": "US x Iran diplomatic meeting by April 30, 2026?",
+      "our_estimate": 0.2591,
+      "market_price": 0.455,
+      "side": "NO",
+      "timestamp": "2026-04-25T14:39:47.411492+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2047410",
+      "question": "US x Iran diplomatic meeting by April 27, 2026?",
+      "our_estimate": 0.104,
+      "market_price": 0.215,
+      "side": "NO",
+      "timestamp": "2026-04-25T14:42:28.682740+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1959320",
+      "question": "US x Iran diplomatic meeting by April 30, 2026?",
+      "our_estimate": 0.0641,
+      "market_price": 0.18,
+      "side": "NO",
+      "timestamp": "2026-04-25T16:47:48.793536+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2015225",
+      "question": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
+      "our_estimate": 0.3407,
+      "market_price": 0.445,
+      "side": "NO",
+      "timestamp": "2026-04-25T16:50:58.675639+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2077210",
+      "question": "Dota 2: Team Liquid vs Team Falcons - Game 1 Winner",
+      "our_estimate": 0.2146,
+      "market_price": 0.28,
+      "side": "NO",
+      "timestamp": "2026-04-25T16:51:58.582232+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2023037",
+      "question": "Pistons vs. Magic",
+      "our_estimate": 0.1384,
+      "market_price": 0.205,
+      "side": "NO",
+      "timestamp": "2026-04-25T18:54:25.814185+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1954638",
+      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-04-25?",
+      "our_estimate": 0.5817,
+      "market_price": 0.495,
+      "side": "YES",
+      "timestamp": "2026-04-25T18:55:47.156563+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2077208",
+      "question": "Dota 2: Team Liquid vs Team Falcons (BO3) - PGL Wallachia Playoffs",
+      "our_estimate": 0.6684,
+      "market_price": 0.515,
+      "side": "YES",
+      "timestamp": "2026-04-25T18:58:00.717972+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2022769",
+      "question": "Seattle Mariners vs. St. Louis Cardinals",
+      "our_estimate": 0.5272,
+      "market_price": 0.435,
+      "side": "YES",
+      "timestamp": "2026-04-25T21:01:39.964958+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006847",
+      "question": "Hurricanes vs. Senators",
+      "our_estimate": 0.4589,
+      "market_price": 0.505,
+      "side": "NO",
+      "timestamp": "2026-04-25T21:03:08.748131+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "2006852",
+      "question": "Stars vs. Wild",
+      "our_estimate": 0.3546,
+      "market_price": 0.495,
+      "side": "NO",
+      "timestamp": "2026-04-25T23:06:45.754533+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2022787",
+      "question": "Athletics vs. Texas Rangers",
+      "our_estimate": 0.4316,
+      "market_price": 0.475,
+      "side": "NO",
+      "timestamp": "2026-04-25T23:07:26.381820+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2023036",
+      "question": "Nuggets vs. Timberwolves",
+      "our_estimate": 0.747,
+      "market_price": 0.575,
+      "side": "YES",
+      "timestamp": "2026-04-26T01:11:17.982794+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006857",
+      "question": "Penguins vs. Flyers",
+      "our_estimate": 0.9135,
+      "market_price": 0.635,
+      "side": "YES",
+      "timestamp": "2026-04-26T01:12:01.312536+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2022787",
+      "question": "Athletics vs. Texas Rangers",
+      "our_estimate": 0.06,
+      "market_price": 0.325,
+      "side": "NO",
+      "timestamp": "2026-04-26T01:12:47.437397+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2022797",
+      "question": "Philadelphia Phillies vs. Atlanta Braves",
+      "our_estimate": 0.7041,
+      "market_price": 0.54,
+      "side": "YES",
+      "timestamp": "2026-04-26T01:14:23.208290+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2002497",
+      "question": "Israel x Hezbollah Ceasefire extended by April 26, 2026?",
+      "our_estimate": 0.1096,
+      "market_price": 0.205,
+      "side": "NO",
+      "timestamp": "2026-04-26T03:16:38.578557+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2073290",
+      "question": "Spread: Celtics (-7.5)",
+      "our_estimate": 0.4035,
+      "market_price": 0.475,
+      "side": "NO",
+      "timestamp": "2026-04-26T22:35:23.147951+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2033094",
+      "question": "Los Angeles Angels vs. Kansas City Royals",
+      "our_estimate": 0.5609,
+      "market_price": 0.7175,
+      "side": "NO",
+      "timestamp": "2026-04-26T22:36:08.216542+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006867",
+      "question": "Avalanche vs. Kings",
+      "our_estimate": 0.7584,
+      "market_price": 0.8,
+      "side": "NO",
+      "timestamp": "2026-04-26T22:36:58.011255+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2071785",
+      "question": "Madrid Open: Joao Fonseca vs Rafael Jodar",
+      "our_estimate": 0.4261,
+      "market_price": 0.485,
+      "side": "NO",
+      "timestamp": "2026-04-26T22:37:46.672439+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2033536",
+      "question": "Lakers vs. Rockets",
+      "our_estimate": 0.2689,
+      "market_price": 0.425,
+      "side": "NO",
+      "timestamp": "2026-04-27T00:40:11.436910+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006872",
+      "question": "Lightning vs. Canadiens",
+      "our_estimate": 0.054,
+      "market_price": 0.335,
+      "side": "NO",
+      "timestamp": "2026-04-27T00:42:30.097488+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "2073291",
+      "question": "Celtics vs. 76ers: O/U 213.5",
+      "our_estimate": 0.0363,
+      "market_price": 0.085,
+      "side": "NO",
+      "timestamp": "2026-04-27T00:43:03.126511+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2033536",
+      "question": "Lakers vs. Rockets",
+      "our_estimate": 0.1672,
+      "market_price": 0.375,
+      "side": "NO",
+      "timestamp": "2026-04-27T02:45:42.807915+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006877",
+      "question": "Oilers vs. Ducks",
+      "our_estimate": 0.9506,
+      "market_price": 0.815,
+      "side": "YES",
+      "timestamp": "2026-04-27T02:46:23.235287+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2088764",
+      "question": "Lakers vs. Rockets: O/U 205.5",
+      "our_estimate": 0.1143,
+      "market_price": 0.255,
+      "side": "NO",
+      "timestamp": "2026-04-27T02:49:52.030778+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2006877",
+      "question": "Oilers vs. Ducks",
+      "our_estimate": 0.6396,
+      "market_price": 0.525,
+      "side": "YES",
+      "timestamp": "2026-04-27T04:51:36.968230+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1976957",
+      "question": "Will Manchester United FC win on 2026-04-27?",
+      "our_estimate": 0.4224,
+      "market_price": 0.505,
+      "side": "NO",
+      "timestamp": "2026-04-27T04:52:19.085707+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "951182",
+      "question": "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West Bengal Legislative ",
+      "our_estimate": 0.6911,
+      "market_price": 0.587,
+      "side": "YES",
+      "timestamp": "2026-04-27T09:05:59.393090+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2080198",
+      "question": "Madrid Open: Belinda Bencic vs Hailey Baptiste",
+      "our_estimate": 0.7459,
+      "market_price": 0.455,
+      "side": "YES",
+      "timestamp": "2026-04-27T11:09:34.106837+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2080207",
+      "question": "Madrid Open: Aryna Sabalenka vs Naomi Osaka",
+      "our_estimate": 0.8867,
+      "market_price": 0.785,
+      "side": "YES",
+      "timestamp": "2026-04-27T13:12:15.449831+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1823776",
+      "question": "Will Bitcoin reach $80,000 in April?",
+      "our_estimate": 0.3135,
+      "market_price": 0.425,
+      "side": "NO",
+      "timestamp": "2026-04-27T13:13:53.201386+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1823776",
+      "question": "Will Bitcoin reach $80,000 in April?",
+      "our_estimate": 0.2378,
+      "market_price": 0.385,
+      "side": "NO",
+      "timestamp": "2026-04-27T15:16:53.467871+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2078284",
+      "question": "Madrid Open: Mirra Andreeva vs Anna Bondar",
+      "our_estimate": 0.7491,
+      "market_price": 0.595,
+      "side": "YES",
+      "timestamp": "2026-04-27T15:17:33.247838+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2043790",
+      "question": "Pistons vs. Magic",
+      "our_estimate": 0.5306,
+      "market_price": 0.585,
+      "side": "NO",
+      "timestamp": "2026-04-27T17:21:12.426145+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1823776",
+      "question": "Will Bitcoin reach $80,000 in April?",
+      "our_estimate": 0.0745,
+      "market_price": 0.235,
+      "side": "NO",
+      "timestamp": "2026-04-27T17:22:03.529995+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "1974986",
+      "question": "Will Atalanta BC win on 2026-04-27?",
+      "our_estimate": 0.1558,
+      "market_price": 0.245,
+      "side": "NO",
+      "timestamp": "2026-04-27T17:22:50.516464+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2082881",
+      "question": "Spread: Nuggets (-11.5)",
+      "our_estimate": 0.4244,
+      "market_price": 0.495,
+      "side": "NO",
+      "timestamp": "2026-04-27T19:27:32.209686+00:00",
+      "outcome": 1.0
+    },
+    {
+      "market_id": "1823776",
+      "question": "Will Bitcoin reach $80,000 in April?",
+      "our_estimate": 0.0839,
+      "market_price": 0.25,
+      "side": "NO",
+      "timestamp": "2026-04-27T19:29:53.564804+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2027390",
+      "question": "Will AC Milan win on 2026-05-03?",
+      "our_estimate": 0.2429,
+      "market_price": 0.355,
+      "side": "NO",
+      "timestamp": "2026-05-03T13:20:44.529394+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2133404",
+      "question": "Iran closes its airspace by May 8?",
+      "our_estimate": 0.1053,
+      "market_price": 0.205,
+      "side": "NO",
+      "timestamp": "2026-05-04T11:36:48.477758+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "561229",
+      "question": "Will JD Vance win the 2028 US Presidential Election?",
+      "our_estimate": 0.1478,
+      "market_price": 0.2105,
+      "side": "NO",
+      "timestamp": "2026-05-04T11:37:37.341256+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "1962237",
+      "question": "US x Iran permanent peace deal by June 30, 2026?",
+      "our_estimate": 0.0422,
+      "market_price": 0.355,
+      "side": "NO",
+      "timestamp": "2026-05-04T11:40:46.430446+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2040064",
+      "question": "Will Manchester City FC win on 2026-05-04?",
+      "our_estimate": 0.6137,
+      "market_price": 0.655,
+      "side": "NO",
+      "timestamp": "2026-05-04T13:43:50.850391+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2144490",
+      "question": "76ers vs. Knicks",
+      "our_estimate": 0.2645,
+      "market_price": 0.295,
+      "side": "NO",
+      "timestamp": "2026-05-04T13:45:59.606979+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2152537",
+      "question": "Cavaliers vs. Pistons",
+      "our_estimate": 0.5148,
+      "market_price": 0.415,
+      "side": "YES",
+      "timestamp": "2026-05-05T10:42:52.346820+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2138976",
+      "question": "LoL: Dplus KIA vs Nongshim Red Force (BO3) - Esports World Cup Korea Qualifier Playoffs",
+      "our_estimate": 0.9494,
+      "market_price": 0.885,
+      "side": "YES",
+      "timestamp": "2026-05-05T10:44:44.330194+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "our_estimate": 0.2348,
+      "market_price": 0.485,
+      "side": "NO",
+      "timestamp": "2026-05-05T10:45:44.799653+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "our_estimate": 0.2233,
+      "market_price": 0.435,
+      "side": "NO",
+      "timestamp": "2026-05-05T12:53:48.675809+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2155859",
+      "question": "Internazionali BNL d'Italia: Anna Bondar vs Qinwen Zheng",
+      "our_estimate": 0.7662,
+      "market_price": 0.71,
+      "side": "YES",
+      "timestamp": "2026-05-05T12:55:37.861363+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2141144",
+      "question": "Indian Premier League: Delhi Capitals vs Chennai Super Kings",
+      "our_estimate": 0.1435,
+      "market_price": 0.195,
+      "side": "NO",
+      "timestamp": "2026-05-05T14:58:07.219137+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2133405",
+      "question": "Iran closes its airspace by May 31?",
+      "our_estimate": 0.399,
+      "market_price": 0.465,
+      "side": "NO",
+      "timestamp": "2026-05-05T15:03:00.862004+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2073829",
+      "question": "Will Elon Musk post 160-179 tweets from April 28 to May 5, 2026?",
+      "our_estimate": 0.2593,
+      "market_price": 0.3955,
+      "side": "NO",
+      "timestamp": "2026-05-05T15:03:48.525967+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2160103",
+      "question": "Internazionali BNL d'Italia, Qualification: Mayar Sherif vs Tamara Korpatsch",
+      "our_estimate": 0.3624,
+      "market_price": 0.515,
+      "side": "NO",
+      "timestamp": "2026-05-05T17:08:47.435694+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2054196",
+      "question": "Arsenal FC vs. Club Atl\u00e9tico de Madrid: O/U 2.5",
+      "our_estimate": 0.427,
+      "market_price": 0.515,
+      "side": "NO",
+      "timestamp": "2026-05-05T17:09:33.884550+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2061882",
+      "question": "Will FC Bayern M\u00fcnchen win on 2026-05-06?",
+      "our_estimate": 0.6701,
+      "market_price": 0.605,
+      "side": "YES",
+      "timestamp": "2026-05-05T17:10:25.660292+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2054196",
+      "question": "Arsenal FC vs. Club Atl\u00e9tico de Madrid: O/U 2.5",
+      "our_estimate": 0.4036,
+      "market_price": 0.475,
+      "side": "NO",
+      "timestamp": "2026-05-05T19:14:11.077954+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2061882",
+      "question": "Will FC Bayern M\u00fcnchen win on 2026-05-06?",
+      "our_estimate": 0.6584,
+      "market_price": 0.605,
+      "side": "YES",
+      "timestamp": "2026-05-05T19:16:35.414119+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "566140",
+      "question": "Will Arsenal win the 2025\u201326 Champions League?",
+      "our_estimate": 0.2755,
+      "market_price": 0.345,
+      "side": "NO",
+      "timestamp": "2026-05-05T19:18:25.986533+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2054191",
+      "question": "Spread: Arsenal FC (-1.5)",
+      "our_estimate": 0.2486,
+      "market_price": 0.345,
+      "side": "NO",
+      "timestamp": "2026-05-05T19:19:59.212103+00:00",
+      "outcome": 0.0
+    },
+    {
+      "market_id": "2082146",
+      "question": "Will Manchester United FC win on 2026-05-09?",
+      "our_estimate": 0.3617,
+      "market_price": 0.455,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:02:41.480215+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2099029",
+      "question": "US x Iran permanent peace deal by May 15, 2026?",
+      "our_estimate": 0.0221,
+      "market_price": 0.127,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:04:32.675491+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2080732",
+      "question": "Will Cagliari Calcio win on 2026-05-09?",
+      "our_estimate": 0.2787,
+      "market_price": 0.355,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:05:23.797109+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2152553",
+      "question": "Pistons vs. Cavaliers",
+      "our_estimate": 0.3364,
+      "market_price": 0.385,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:06:19.051505+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2080734",
+      "question": "Will Udinese Calcio win on 2026-05-09?",
+      "our_estimate": 0.143,
+      "market_price": 0.225,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:07:07.572810+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2184805",
+      "question": "Internazionali BNL d'Italia: Felix Auger-Aliassime vs Mariano Navone",
+      "our_estimate": 0.3485,
+      "market_price": 0.535,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:08:58.587364+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2082126",
+      "question": "Will FC Augsburg win on 2026-05-09?",
+      "our_estimate": 0.3387,
+      "market_price": 0.445,
+      "side": "NO",
+      "timestamp": "2026-05-09T14:09:48.913493+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2082177",
+      "question": "Will FC Bayern M\u00fcnchen win on 2026-05-09?",
+      "our_estimate": 0.7284,
+      "market_price": 0.655,
+      "side": "YES",
+      "timestamp": "2026-05-09T16:11:32.466536+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2099029",
+      "question": "US x Iran permanent peace deal by May 15, 2026?",
+      "our_estimate": 0.0208,
+      "market_price": 0.1245,
+      "side": "NO",
+      "timestamp": "2026-05-09T16:16:38.872651+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2184796",
+      "question": "Internazionali BNL d'Italia: Aryna Sabalenka vs Sorana Cirstea",
+      "our_estimate": 0.0693,
+      "market_price": 0.1615,
+      "side": "NO",
+      "timestamp": "2026-05-09T16:18:39.697759+00:00",
+      "outcome": null
+    },
+    {
+      "market_id": "2149038",
+      "question": "Indian Premier League: Rajasthan Royals vs Gujarat Titans",
+      "our_estimate": 0.3564,
+      "market_price": 0.395,
+      "side": "NO",
+      "timestamp": "2026-05-09T16:19:40.309512+00:00",
+      "outcome": null
+    }
+  ],
+  "platt_a": 0.5,
+  "platt_b": -0.3276
+}
