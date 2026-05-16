@@ -5,8 +5,11 @@ market, the forecasts get Platt-calibrated against a running outcome log,
 and surviving opportunities get sized with the Kelly criterion. Full live
 dashboard. Paper money only.
 
-**Full writeup with results, math, and the bug I found in my own
-calibration pipeline: [public/blog.md](public/blog.md).**
+- **[HOW_IT_WORKS.md](HOW_IT_WORKS.md)** — walks the pipeline end-to-end
+  with math and a worked example. Start here if you want to understand
+  the system.
+- **[public/blog.md](public/blog.md)** — Month 1 writeup with results,
+  charts, and the calibration bug I found in my own pipeline.
 
 ## Highlights
 
