@@ -390,6 +390,31 @@ class ConfigUpdate(BaseModel):
         description="Whether to apply Platt scaling to LLM estimates using historical calibration data.",
         examples=[True]
     )
+    min_entry_price: Optional[float] = Field(
+        None, ge=0, le=1,
+        description="Refuse to buy any side priced below this (kills longshot bleed). E.g. 0.30.",
+        examples=[0.30]
+    )
+    max_sports_pct: Optional[float] = Field(
+        None, ge=0, le=1,
+        description="Max fraction of starting capital deployed in sports markets. E.g. 0.30.",
+        examples=[0.30]
+    )
+    stop_loss_enabled: Optional[bool] = Field(
+        None,
+        description="Enable the legacy price stop-loss. OFF by default — it realised losses on noise.",
+        examples=[False]
+    )
+    thesis_recheck: Optional[bool] = Field(
+        None,
+        description="Re-analyse positions that moved hard against us and cut only if the thesis is broken.",
+        examples=[True]
+    )
+    use_learnings: Optional[bool] = Field(
+        None,
+        description="Inject our own losing-pattern stats into the analyst prompts each cycle.",
+        examples=[True]
+    )
 
 
 class ManualTrade(BaseModel):
@@ -547,7 +572,10 @@ async def _bot_cycle():
             await broadcast(evt)
         await broadcast_state()
 
-    # Step 1b: Check exits (stop-loss / edge erosion)
+    # Refresh self-learning summary (cheap, pure-python over our trade history)
+    engine.update_learnings(state)
+
+    # Step 1b: Check exits (take-profit / thesis re-check)
     exits = await asyncio.to_thread(engine.check_exits, state, config)
     if exits:
         save()
@@ -644,6 +672,7 @@ async def _bot_cycle():
 async def lifespan(app):
     global state, bot_running, bot_task
     state = engine.load_state(STATE_FILE)
+    engine.update_learnings(state)
     try:
         resolved = await asyncio.to_thread(engine.check_resolved, state)
         if resolved:

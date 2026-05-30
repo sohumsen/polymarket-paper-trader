@@ -202,18 +202,27 @@ $117; if NO we lose the $49.
 
 ## 4. Exits
 
-Two exit rules, both at [engine.py:1006](engine.py#L1006):
+The exit rules live in `check_exits()` in [engine.py](engine.py):
 
-**Edge erosion.** If the market moves toward our estimate after entry,
-the remaining edge shrinks. Once $<20\%$ of the original edge is left,
-we close the position and take the partial profit. The Polymarket data
-shows this rule is doing most of the strategy's real work — it's the
-only category of exits that's net profitable across the 110 resolved
-trades in the public log.
+**Edge erosion (take-profit).** If the market moves toward our estimate
+after entry, the remaining edge shrinks. Once $<20\%$ of the original
+edge is left, we close the position and take the partial profit. The
+Polymarket data shows this rule is doing most of the strategy's real
+work — it's the only category of exits that's net profitable across the
+resolved trades in the public log.
 
-**Stop-loss.** If unrealised PnL drops below $-50\%$ of cost, we close.
-This is purely defensive: it caps the worst single-trade loss at half
-the bet.
+**Thesis re-check (not a price stop-loss).** The original build also ran
+a $-50\%$ price stop-loss, and the data was damning: across 49 stops it
+lost \$1,227 (−88% ROI) and gave back nearly every dollar the take-profit
+rule earned. In a binary market an adverse price move *without new
+information* increases our edge — selling there realises a full loss at
+the moment expected value is highest. So the stop-loss is now **off by
+default**. Instead, when a position moves hard against us (≥12pp) and
+there's still time to matter, we re-run a fresh, cheap analysis. We cut
+**only if that fresh view says the thesis is genuinely broken** (negative
+edge on our side); otherwise we hold to settlement and refresh our
+estimate. Everything else rides to resolution, where the most we can lose
+is the stake anyway.
 
 There's also a subtler third rule: **edge-eroded exits don't update the
 calibration log immediately.** Calibration cares about the binary

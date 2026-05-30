@@ -46,6 +46,20 @@ DEFAULT_CONFIG = {
     "use_calibration": True,      # apply Platt scaling if enough data
     "min_calibration_samples": 30, # need this many resolved predictions before applying
     "max_same_day_pct": 0.15,     # max 15% of starting capital in markets resolving same day
+    # v4 additions (ROI fixes — see analysis 2026-05)
+    # Exit logic: the old -50% price stop-loss realised full losses on noise and
+    # gave back almost all take-profit gains. In a binary market an adverse price
+    # move WITHOUT new info increases edge, so we hold to settlement and only cut
+    # when a fresh analysis says the thesis is actually broken.
+    "stop_loss_enabled": False,     # legacy price stop-loss (default OFF — it bled ROI)
+    "stop_loss_pct": 0.50,          # only used if stop_loss_enabled
+    "thesis_recheck": True,         # re-analyse positions that moved hard against us
+    "thesis_recheck_trigger": 0.12, # price must move >=12pp against us to spend a recheck
+    "thesis_exit_edge": -0.04,      # exit only if fresh edge on our side < -4% (thesis broken)
+    "thesis_recheck_passes": 2,     # cheap ensemble for rechecks (speed)
+    "min_entry_price": 0.30,        # refuse to buy any side cheaper than 30c (longshot bleed)
+    "max_sports_pct": 0.30,         # cap sports at 30% of starting capital (weakest category)
+    "use_learnings": True,          # feed our own losing-pattern stats back into the prompt
 }
 
 
@@ -310,6 +324,70 @@ def get_stats(state, config=None):
     return stats
 
 
+# ── Learning feedback (self-generated losing-pattern summary) ────────
+# A compact, data-driven "what's been losing us money" block that gets injected
+# into the analyst prompts each cycle (Prediction Arena's "Critical learning
+# section"). Recomputed from our own resolved trades, so it self-updates.
+
+LEARNINGS = ""           # module-global, read by ask_claude
+_MIN_LEARNING_TRADES = 20
+
+
+def compute_learnings(state):
+    """Build a short prompt block summarising our own profitable vs losing patterns.
+
+    Returns "" until we have enough resolved trades to be meaningful.
+    """
+    resolved = [t for t in state.get("trades", []) if t["status"] == "resolved"]
+    if len(resolved) < _MIN_LEARNING_TRADES:
+        return ""
+
+    def roi(group):
+        cost = sum(t["cost"] for t in group)
+        return (sum(t.get("profit", 0) for t in group) / cost * 100) if cost else 0.0
+
+    # Per-category ROI
+    cats = {}
+    for t in resolved:
+        cats.setdefault(t.get("category", "other"), []).append(t)
+    cat_lines = sorted(((roi(g), c, len(g)) for c, g in cats.items() if len(g) >= 5))
+
+    # Entry-price buckets (the side we bought)
+    def bucket(p):
+        return "<30c" if p < 0.30 else "30-50c" if p < 0.50 else "50-70c" if p < 0.70 else ">=70c"
+    bk = {}
+    for t in resolved:
+        bk.setdefault(bucket(t["entry_price"]), []).append(t)
+
+    worst_cat = cat_lines[0] if cat_lines else None
+    best_cat = cat_lines[-1] if cat_lines else None
+    low_bucket = bk.get("<30c", [])
+
+    parts = ["=== OUR TRACK RECORD (learn from it) ==="]
+    if best_cat and worst_cat and best_cat[1] != worst_cat[1]:
+        parts.append(
+            f"Best category for us: {best_cat[1]} ({best_cat[0]:+.0f}% ROI). "
+            f"Worst: {worst_cat[1]} ({worst_cat[0]:+.0f}% ROI) - demand a bigger edge there."
+        )
+    if low_bucket:
+        parts.append(
+            f"Cheap longshot buys (<30c) have returned {roi(low_bucket):+.0f}% ROI over "
+            f"{len(low_bucket)} trades - avoid low-priced sides unless the edge is huge."
+        )
+    parts.append(
+        "Reminder: an adverse price move is not new information. If your thesis holds, "
+        "the cheaper price is a better entry, not a reason to fear the position."
+    )
+    return "\n".join(parts) + "\n\n"
+
+
+def update_learnings(state):
+    """Recompute and cache the learning block. Call once per scan cycle."""
+    global LEARNINGS
+    LEARNINGS = compute_learnings(state)
+    return LEARNINGS
+
+
 # ── Polymarket API ───────────────────────────────────────────────
 
 def parse_prices(raw):
@@ -421,30 +499,48 @@ CATEGORY_KEYWORDS = {
     "entertainment": {"oscar", "grammy", "emmy", "movie", "film", "album",
                       "song", "artist", "box office", "netflix", "spotify",
                       "streaming", "celebrity", "award"},
-    "world": {"war", "peace", "treaty", "invasion", "sanction", "un ", "nato",
-              "refugee", "earthquake", "hurricane", "pandemic", "covid"},
+    "world": {"war", "peace", "treaty", "invasion", "sanction", "nato",
+              "refugee", "earthquake", "hurricane", "pandemic", "covid",
+              "conflict", "ceasefire", "hostage", "missile", "airspace",
+              "blockade", "uranium", "nuclear", "iran", "israel", "hezbollah",
+              "ukraine", "russia", "gaza", "hamas"},
 }
 
-# Category efficiency (lower = more efficient = harder to find edge)
-# Based on research: finance 0.17pp, entertainment 4.79pp, world events 7.32pp
+# Category efficiency (higher = more inefficient = easier to find edge = trade more readily).
+# Recalibrated 2026-05 from our own realised ROI: sports was our WORST category
+# (~0.9% ROI on 70% of volume) yet the old table gave it a 1.1 boost. Geopolitical
+# NO bets ("world") were our actual edge, so they keep the highest multiplier.
 CATEGORY_EDGE_MULTIPLIER = {
     "finance": 0.6,       # very efficient, need bigger edge
     "crypto": 0.75,       # somewhat efficient
-    "politics": 1.0,      # baseline
-    "sports": 1.1,        # slightly inefficient
+    "sports": 0.7,        # OUR WORST category — demand more edge (was 1.1)
+    "politics": 1.0,      # baseline; modestly profitable for us
     "entertainment": 1.3, # quite inefficient
-    "world": 1.4,         # most inefficient, smaller edge needed
+    "world": 1.4,         # geopolitics/conflict — our strongest edge
     "other": 1.0,
 }
 
 
 def detect_category(question, description=""):
-    """Detect market category. Returns (category_name, edge_multiplier)."""
+    """Detect market category. Returns (category_name, edge_multiplier).
+
+    Matches single-word keywords on WORD BOUNDARIES (not substrings) — the old
+    substring match tagged any question containing "whether" as crypto because
+    "eth" is a substring of it, which is why Iran/geopolitics markets were
+    mislabelled "crypto". Multi-word keywords still match as substrings.
+    """
     text = (question + " " + description).lower()
+    tokens = set(re.findall(r"[a-z0-9&]+", text))
     best_cat = "other"
     best_score = 0
     for cat, keywords in CATEGORY_KEYWORDS.items():
-        score = sum(1 for kw in keywords if kw in text)
+        score = 0
+        for kw in keywords:
+            if " " in kw:
+                if kw in text:
+                    score += 1
+            elif kw.strip() in tokens:
+                score += 1
         if score > best_score:
             best_score = score
             best_cat = cat
@@ -656,8 +752,10 @@ def ask_claude(question, description, price_yes, volume=0, end_date="", momentum
             f"Check whether event has occurred or is in progress.\n\n"
         )
 
+    learning_block = LEARNINGS if config.get("use_learnings", True) else ""
+
     context = (
-        f"Today: {today}\n{live_warning}"
+        f"Today: {today}\n{live_warning}{learning_block}"
         f"=== MARKET ===\n"
         f"Question: {question}\n"
         f"Description: {description[:1000]}\n"
@@ -885,6 +983,13 @@ def analyze_market(market, config=None):
     else:
         return None
 
+    # Entry-price floor: cheap (longshot) sides bled us dry (<30c buckets ran
+    # -77%/-10% ROI). Refuse to buy any side priced below the floor regardless of
+    # nominal edge — the edge on longshots is mostly noise/overconfidence.
+    min_entry = config.get("min_entry_price", 0.0)
+    if entry_price < min_entry:
+        return None
+
     score = opportunity_score(edge, confidence, volume, cat_multiplier)
     roi = ((1.0 / entry_price) - 1) * 100
 
@@ -922,6 +1027,17 @@ def execute_trade(state, opp, size, config=None):
         size = max(0, max_same_day - current_same_day)
         if size < 1.0:  # less than $1 not worth it
             return None
+
+    # Sports concentration cap: our weakest category (~0.9% ROI) and ~70% of past
+    # volume. Keep it from dominating the book.
+    if opp.get("category") == "sports":
+        max_sports = config.get("max_sports_pct", 1.0) * config["starting_balance"]
+        cur_sports = sum(t["cost"] for t in state["trades"]
+                         if t["status"] == "open" and t.get("category") == "sports")
+        if cur_sports + size > max_sports:
+            size = max(0, max_sports - cur_sports)
+            if size < 1.0:
+                return None
 
     shares = size / opp["entry_price"]
     trade = {
@@ -1020,7 +1136,13 @@ def get_portfolio_live(state):
     return positions
 
 
-# ── Position exit / stop-loss logic ─────────────────────────────
+# ── Position exit logic ──────────────────────────────────────────
+# Philosophy (v4): in a binary market an adverse price move with no new
+# information INCREASES our edge, so we hold to settlement. We take profit when
+# the market converges to our view ("edge eroded"), and we only cut a losing
+# position when a FRESH analysis says the thesis is actually broken — not because
+# the price wobbled. The old -50% price stop-loss realised full losses on noise
+# and is OFF by default (see stop_loss_enabled).
 
 def check_exits(state, config=None):
     """Check open positions for exit signals. Sells at simulated live price.
@@ -1041,7 +1163,7 @@ def check_exits(state, config=None):
         entry = t["entry_price"]
         edge_at_entry = t.get("edge", 0)
 
-        # Current implied edge: how much edge remains
+        # Current implied edge: how much edge remains vs our stored estimate
         if t["side"] == "YES":
             current_edge = t.get("our_estimate", entry) - p_yes
         else:
@@ -1050,16 +1172,37 @@ def check_exits(state, config=None):
         should_exit = False
         reason = ""
 
-        # Exit if current price implies < 20% of original edge remains
+        # (1) TAKE PROFIT: price converged to our view, <20% of original edge left.
         if edge_at_entry > 0 and current_edge < edge_at_entry * 0.20:
             should_exit = True
             reason = f"edge eroded ({current_edge:.1%} vs {edge_at_entry:.1%} at entry)"
 
-        # Exit if position has lost > 50% of cost (stop-loss)
-        unrealized = (current_price - entry) * t["shares"]
-        if unrealized < -t["cost"] * 0.50:
-            should_exit = True
-            reason = f"stop-loss triggered (unrealized: ${unrealized:.2f})"
+        # (2) THESIS RE-CHECK: only for positions that moved hard against us, with
+        # time left to matter. Re-analyse; cut ONLY if the fresh view says we are
+        # genuinely on the wrong side. Otherwise hold (and refresh our estimate).
+        adverse_move = entry - current_price  # positive = moved against us
+        hours_left = get_hours_to_resolve(m.get("endDateIso", ""))
+        time_ok = hours_left is None or hours_left > config.get("min_hours_to_resolve", 12)
+        if (not should_exit and config.get("thesis_recheck", True)
+                and adverse_move >= config.get("thesis_recheck_trigger", 0.12)
+                and time_ok):
+            fresh = _recheck_estimate(m, p_yes, config)
+            if fresh is not None:
+                fresh_edge = (fresh - p_yes) if t["side"] == "YES" else ((1 - fresh) - p_no)
+                if fresh_edge < config.get("thesis_exit_edge", -0.04):
+                    should_exit = True
+                    reason = f"thesis broken (fresh edge {fresh_edge:+.1%} on {t['side']})"
+                else:
+                    # Thesis intact — keep holding, refresh stored estimate so the
+                    # take-profit math tracks our current view.
+                    t["our_estimate"] = fresh
+
+        # (3) LEGACY price stop-loss — OFF by default (it bled ROI historically).
+        if not should_exit and config.get("stop_loss_enabled", False):
+            unrealized = (current_price - entry) * t["shares"]
+            if unrealized < -t["cost"] * config.get("stop_loss_pct", 0.50):
+                should_exit = True
+                reason = f"stop-loss triggered (unrealized: ${unrealized:.2f})"
 
         if should_exit:
             # Sell shares at current price
@@ -1074,6 +1217,24 @@ def check_exits(state, config=None):
             exits.append({"trade": t, "profit": profit, "reason": reason})
 
     return exits
+
+
+def _recheck_estimate(market, price_yes, config):
+    """Run a cheap fresh ensemble pass on an open market for thesis re-checking.
+    Returns a fresh P(YES) estimate, or None if analysis failed."""
+    recheck_cfg = dict(config)
+    recheck_cfg["ensemble_passes"] = config.get("thesis_recheck_passes", 2)
+    question = market.get("question", "")
+    description = market.get("description", "")
+    volume = market.get("volumeNum", 0) or 0
+    end_date = market.get("endDateIso", "")
+    momentum = get_momentum(market)
+    hours_left = get_hours_to_resolve(end_date)
+    estimate, _ = ask_claude(
+        question, description, price_yes, volume, end_date,
+        momentum, hours_left, recheck_cfg
+    )
+    return estimate
 
 
 # ── Cross-market correlation ─────────────────────────────────────
