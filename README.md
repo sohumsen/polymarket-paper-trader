@@ -5,6 +5,10 @@ market, the forecasts get Platt-calibrated against a running outcome log,
 and surviving opportunities get sized with the Kelly criterion. Full live
 dashboard. Paper money only.
 
+![Polymarket Paper Trader dashboard](dashboard/public/dashboard.png)
+
+> *Dashboard UI preview — illustrative sample data.*
+
 - **[HOW_IT_WORKS.md](HOW_IT_WORKS.md)** — walks the pipeline end-to-end
   with math and a worked example. Start here if you want to understand
   the system.
